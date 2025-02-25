@@ -13,7 +13,7 @@ increasebtn.onclick = function(){
 decreasebtn.onclick = function(){
     count--;
      countLabel.textContent = count;
-    if( countLabel<0){
+    if( countLabel.value<0){
         countLabel.textContent = 0;
     }
 }
