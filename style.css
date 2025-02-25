@@ -29,7 +29,11 @@
     border-radius: 10px;
     color: aliceblue;
     cursor: pointer;
-   
+   transition:  background-color .25s;
+}
+.button:hover{
+    background-color: rgb(104, 104, 243);
+}
 
 
 /* 📱 Responsive Styles */
