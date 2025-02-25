@@ -4,7 +4,7 @@ const increasebtn = document.getElementById("increasebtn");
 const countLabel = document.getElementById("countLabel");
 
 let count = 0;
-countLabel.textContent = count;
+countLabel.textContent = 0;
 increasebtn.onclick = function(){
     count++;
     countLabel.textContent = count;
