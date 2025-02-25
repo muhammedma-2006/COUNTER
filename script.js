@@ -11,11 +11,15 @@ increasebtn.onclick = function(){
 }
 
 decreasebtn.onclick = function(){
-    count--;
-     countLabel.textContent = count;
-    if( countLabel.value<0){
+     if( countLabel.value <= 0){
         countLabel.textContent = 0;
+    
     }
+    else{
+    count--;
+    countLabel.textContent = count;
+    }
+
 }
 
 resetbtn.onclick = function(){
